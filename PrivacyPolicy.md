@@ -9,7 +9,9 @@
 ### ■ 2. 外部送信について
 本アプリは、ユーザーの個人情報を外部へ送信することはありません。
 
+
 ただし、本アプリはアップデート確認や関連情報の取得のために GitHub へアクセスする場合があります。
+
 この通信により、IPアドレスやユーザーエージェントなどの技術的情報が、GitHubのサーバーへ送信される可能性があります。
 
 これらの情報は本アプリによって収集・保存されることはありません。
@@ -36,6 +38,7 @@
 
 ### ■ 8. お問い合わせ
 本ポリシーに関するお問い合わせは、以下の連絡先までお願いいたします: 
+
 https://sites.google.com/view/gyonisostudio/contact
 
 --------------------------------------------------------------------------
@@ -52,7 +55,9 @@ The App does not collect any personal information such as name, address, or emai
 The App does not transmit any personal information to external parties.
 
 However, the App may access GitHub to check for updates or retrieve related information.
+
 As part of this communication, technical information such as IP address and user agent may be transmitted to GitHub servers.
+
 
 Such information is not collected or stored by the App.
 
@@ -78,4 +83,5 @@ This policy may be updated without prior notice.
 
 ### 8. Contact
 For inquiries regarding this policy, please contact: 
+
 https://sites.google.com/view/gyonisostudio/contact
