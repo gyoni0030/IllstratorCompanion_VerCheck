@@ -1,4 +1,15 @@
 # Changelog - Illustrator Companion
+
+## [0.9.1] - 2026-03-23
+### Added
+- Added automatic character encoding detection for script files (.jsx), enabling correct loading in UTF-8 or Shift_JIS
+- Added an optional script execution cache
+- When re‑registering (overwriting) a script, user‑defined argument values are now preserved
+- Scripts that include the #include directive can now run as long as their dependent files exist in the correct relative paths
+- Added links to the official website, privacy policy, and changelog on the About screen
+### Fixed
+- Fixed an issue where scripts saved in Shift_JIS could appear garbled when loaded
+
 ## [0.9.0] - 2026-03-21
 ### Added
 - Added support for dragging and dropping folders when registering scripts
