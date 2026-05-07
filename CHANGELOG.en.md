@@ -1,5 +1,26 @@
 # Changelog - Illustrator Companion / Illustrator Companion EX
 
+## [1.0.0] - 2026-05-07
+### Added
+- Added a feature to duplicate scripts from the launcher
+- Added a feature to rename scripts directly from the launcher
+- Added a feature to show a script's JSX file in Explorer from the launcher
+- Added a feature to open a script in a user-specified editor from the launcher (default: notepad.exe)
+- Added a feature that focuses the numeric fields in the Color panel via shortcut and skips the HEX field when moving with the Tab key (EX edition)
+- Added a feature that automatically switches the Color panel's color space to match the document's color mode (EX edition)
+- Added an instant minimize hotkey that instantly minimizes the active window to the taskbar, even when maximized
+- Added a hotkey that restores the last window minimized by the Instant Minimize feature to its original state (EX edition)
+- Added a magnifying glass icon to the left of the search box for better visibility (clicking it focuses the search box)
+- Added a warning dialog when a shortcut includes both Ctrl and Win, due to a potential misinterpretation in Illustrator that may send the selected object backward
+### Changed
+- Improved stability in the connection with Illustrator
+- Separated the Options dialog into "General Settings" and "Illustrator Enhancements", and reorganized the settings into clearer categories
+### Fixed
+- Fixed an issue where the setting to hide the launcher when no Illustrator document was open sometimes did not work correctly
+- Fixed an issue where the launcher sometimes did not appear after switching to Illustrator when opening a document by dragging and dropping it from Explorer
+- Fixed an issue where the UI layout could break depending on the Windows display scaling settings
+- Fixed an issue where script categories could no longer be changed
+
 ## [0.9.4] - 2026-04-13
 ### Changed
 - Changed the global hotkey combination for switching Adobe apps to avoid potential misbehavior in Illustrator
